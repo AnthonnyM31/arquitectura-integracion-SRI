@@ -7,5 +7,6 @@ public record InfoCompletaDto(
     String ruc,
     String nombre,
     String estadoContribuyente,
+    String puntosLicencia,
     List<SriVehiculoDto> vehiculos
 ) {}
